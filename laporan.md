@@ -82,7 +82,7 @@ Untuk menjalankan aplikasi ini, Anda perlu mengikuti langkah-langkah berikut:
    - Pastikan Anda telah menginstal Python di sistem Anda.
    - Instal Streamlit dan Pandas dengan menggunakan pip. Anda dapat melakukannya dengan menjalankan perintah berikut di terminal:
      ```bash
-     pip install streamlit pandas
+     pip install streamlit
      ```
 
 2. **Model yang Dilatih**:
