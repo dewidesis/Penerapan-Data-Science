@@ -73,6 +73,46 @@ Dashboard ini dibuat untuk memberikan pemahaman yang komprehensif terkait tingka
 
 URL: https://lookerstudio.google.com/reporting/8a3b91d8-a06c-4c9e-b634-9b6c7364d2b3
 
+## Menjalankan Prototype Sistem Machine Learning
+
+Untuk menjalankan aplikasi ini, Anda perlu mengikuti langkah-langkah berikut:
+
+1. **Persyaratan Awal**:
+
+   - Pastikan Anda telah menginstal Python di sistem Anda.
+   - Instal Streamlit dan Pandas dengan menggunakan pip. Anda dapat melakukannya dengan menjalankan perintah berikut di terminal:
+     ```bash
+     pip install streamlit pandas
+     ```
+
+2. **Model yang Dilatih**:
+
+   - Pastikan Anda memiliki model yang telah dilatih dan disimpan dalam format pickle (`model.pkl`). Model ini harus berada di direktori yang sama dengan berkas `app.py`.
+
+3. **Menjalankan Aplikasi**:
+
+   - Buka terminal dan navigasikan ke direktori tempat berkas `app.py` berada.
+   - Jalankan aplikasi dengan perintah berikut:
+     ```bash
+     streamlit run app.py
+     ```
+   - Setelah menjalankan perintah tersebut, aplikasi akan terbuka di browser Anda secara otomatis. Jika tidak, Anda dapat mengaksesnya melalui alamat `http://localhost:8501`.
+
+4. **Menggunakan Aplikasi**:
+
+   - Setelah aplikasi terbuka, Anda akan melihat antarmuka untuk memasukkan data mahasiswa.
+   - Isi kolom-kolom yang tersedia dengan informasi yang relevan.
+   - Klik tombol "Prediksi" untuk mendapatkan hasil prediksi apakah mahasiswa tersebut berpotensi dropout atau tidak.
+
+5. **Hasil Prediksi**:
+   - Hasil prediksi akan ditampilkan di bawah tombol prediksi.
+
+## Streamlit
+
+Local URL: http://localhost:8501
+Network URL: http://192.168.1.6:850
+Link Deployment streamlit : https://penerapan-data-science-dewi.streamlit.app/
+
 ## Conclusion
 
 Tingkat dropout mahasiswa di Jaya Jaya Institut dipengaruhi oleh beragam aspek yang mencakup karakteristik demografis, latar belakang pendidikan sebelumnya, kondisi ekonomi, situasi keluarga dan sosial, serta performa akademik.
